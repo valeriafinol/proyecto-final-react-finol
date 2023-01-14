@@ -1,0 +1,51 @@
+.cardItem {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  padding-bottom: 5px;
+  margin: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageItem {
+  object-fit: contain;
+  width: 100%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.itemButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8c4c4;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.itemButton:hover {
+  background-color: #dba39a;
+  color: white;
+}
+
+.bolderText {
+  font-weight: bolder;
+}

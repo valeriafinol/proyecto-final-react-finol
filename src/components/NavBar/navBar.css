@@ -1,0 +1,40 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container,
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ulNav,
+.container {
+  background-color: #f5ebe0;
+}
+
+li {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+.h1Nav {
+  font-weight: bolder;
+  margin-left: -20%;
+  margin-top: 2%;
+}
+
+nav {
+  margin-top: 2%;
+  display: flex;
+}
+
+.brandTitle {
+  font-size: 20px;
+}

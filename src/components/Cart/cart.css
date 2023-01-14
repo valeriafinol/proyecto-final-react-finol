@@ -1,0 +1,44 @@
+.emptyCartText {
+  font-size: 75px;
+}
+
+.emptyCartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyCartImage {
+  width: 25%;
+}
+
+.buttonBuyProducts,
+.buttonFinishOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8c4c4;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #e8c4c4;
+}
+
+.buttonBuyProducts:hover,
+.buttonFinishOrder:hover {
+  background-color: #dba39a;
+  color: white;
+}
+
+.totalPriceCart {
+  margin: 2% 0;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.buttonFinishOrderContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,52 @@
+.cardItemCart {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageCart {
+  object-fit: contain;
+  width: 30%;
+  margin: 30px;
+}
+
+.itemCartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.textItemCart {
+  margin: 3%;
+  width: 100%;
+}
+
+.buttonDeleteCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8c4c4;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #e8c4c4;
+}
+
+.buttonDeleteCart:hover {
+  background-color: #dba39a;
+  color: white;
+}
+
+.buttonDeleteCartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}

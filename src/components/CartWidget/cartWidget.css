@@ -1,0 +1,15 @@
+.cartIcon {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cartNumber {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}

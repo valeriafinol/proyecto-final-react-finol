@@ -1,0 +1,24 @@
+.pGreeting {
+  margin-top: 3%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.heroContainer {
+  background-image: url("../../assets/hero-clothing.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.storeName {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.heroImage {
+  width: 100%;
+  height: 70%;
+}

@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  background-color: #f5ebe0;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.labelsForm {
+  display: flex;
+  margin: 5% 0;
+}
+
+.labelText {
+  margin-right: 2%;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8c4c4;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #e8c4c4;
+  margin-bottom: 20%;
+}
+
+.submitButton:hover {
+  background-color: #dba39a;
+  color: white;
+}
+
+.orderMessage {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.buyAgainButtonContainer {
+  display: flex;
+  justify-content: center;
+}
